@@ -65,7 +65,7 @@ function OptionButton({
         background: selected ? "rgba(201,168,76,0.08)" : "#1A1A1A",
         border: selected ? "1px solid #C9A84C" : "1px solid #2A2520",
         color: selected ? "#F5F0E8" : "#A09880",
-        fontFamily: "'DM Sans', sans-serif",
+        fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
         fontSize: "14px",
         fontWeight: selected ? 400 : 300,
         padding: "12px 20px",
@@ -150,7 +150,7 @@ function LeadForm({ answers }: { answers: Answers }) {
       >
         <div
           style={{
-            fontFamily: "'Cormorant Garamond', Georgia, serif",
+            fontFamily: "var(--font-cormorant), 'Cormorant Garamond', Georgia, serif",
             fontSize: "clamp(28px, 4vw, 40px)",
             fontWeight: 400,
             color: "#C9A84C",
@@ -161,7 +161,7 @@ function LeadForm({ answers }: { answers: Answers }) {
         </div>
         <p
           style={{
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
             fontSize: "16px",
             fontWeight: 300,
             color: "#A09880",
@@ -177,7 +177,7 @@ function LeadForm({ answers }: { answers: Answers }) {
           rel="noopener noreferrer"
           data-testid="link-instagram-thankyou"
           style={{
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
             fontSize: "13px",
             fontWeight: 500,
             color: "#C9A84C",
@@ -204,14 +204,14 @@ function LeadForm({ answers }: { answers: Answers }) {
       <div className="mb-2">
         <span
           className="text-xs tracking-[0.18em] uppercase"
-          style={{ color: "#C9A84C", fontFamily: "'DM Sans', sans-serif" }}
+          style={{ color: "#C9A84C", fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif" }}
         >
           Contato executivo
         </span>
         <h3
           className="mt-2"
           style={{
-            fontFamily: "'Cormorant Garamond', Georgia, serif",
+            fontFamily: "var(--font-cormorant), 'Cormorant Garamond', Georgia, serif",
             fontSize: "clamp(24px, 3vw, 36px)",
             fontWeight: 400,
             color: "#F5F0E8",
@@ -230,7 +230,7 @@ function LeadForm({ answers }: { answers: Answers }) {
           <label
             htmlFor={field.id}
             style={{
-              fontFamily: "'DM Sans', sans-serif",
+              fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
               fontSize: "12px",
               fontWeight: 400,
               color: "#5A5448",
@@ -252,7 +252,7 @@ function LeadForm({ answers }: { answers: Answers }) {
               background: "#1A1A1A",
               border: "1px solid #2A2520",
               color: "#F5F0E8",
-              fontFamily: "'DM Sans', sans-serif",
+              fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
               fontSize: "15px",
               fontWeight: 300,
               padding: "14px 16px",
@@ -274,7 +274,7 @@ function LeadForm({ answers }: { answers: Answers }) {
           marginTop: "8px",
           background: "#C9A84C",
           color: "#0A0A0A",
-          fontFamily: "'DM Sans', sans-serif",
+          fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
           fontWeight: 500,
           fontSize: "14px",
           padding: "18px 40px",
@@ -294,7 +294,7 @@ function LeadForm({ answers }: { answers: Answers }) {
 
       <p
         style={{
-          fontFamily: "'DM Sans', sans-serif",
+          fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
           fontSize: "12px",
           fontWeight: 300,
           color: "#5A5448",
@@ -334,7 +334,7 @@ export function Qualification() {
             <div className="mb-4">
               <span
                 className="text-xs tracking-[0.18em] uppercase"
-                style={{ color: "#C9A84C", fontFamily: "'DM Sans', sans-serif" }}
+                style={{ color: "#C9A84C", fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif" }}
               >
                 Etapa de qualificação
               </span>
@@ -342,7 +342,7 @@ export function Qualification() {
             <h2
               className="leading-tight mb-3"
               style={{
-                fontFamily: "'Cormorant Garamond', Georgia, serif",
+                fontFamily: "var(--font-cormorant), 'Cormorant Garamond', Georgia, serif",
                 fontSize: "clamp(30px, 4vw, 48px)",
                 fontWeight: 400,
                 color: "#F5F0E8",
@@ -354,7 +354,7 @@ export function Qualification() {
             <p
               className="mb-10"
               style={{
-                fontFamily: "'DM Sans', sans-serif",
+                fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                 fontSize: "15px",
                 fontWeight: 300,
                 color: "#A09880",
@@ -371,7 +371,7 @@ export function Qualification() {
               <p
                 className="mb-4"
                 style={{
-                  fontFamily: "'DM Sans', sans-serif",
+                  fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                   fontSize: "16px",
                   fontWeight: 400,
                   color: "#F5F0E8",
@@ -411,7 +411,7 @@ export function Qualification() {
               >
                 <p
                   style={{
-                    fontFamily: "'DM Sans', sans-serif",
+                    fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                     fontSize: "15px",
                     fontWeight: 300,
                     color: "#A09880",
@@ -427,7 +427,7 @@ export function Qualification() {
                   rel="noopener noreferrer"
                   data-testid="link-instagram-disqualified"
                   style={{
-                    fontFamily: "'DM Sans', sans-serif",
+                    fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                     fontSize: "13px",
                     fontWeight: 500,
                     color: "#C9A84C",
@@ -455,7 +455,7 @@ export function Qualification() {
                 <p
                   className="mb-4"
                   style={{
-                    fontFamily: "'DM Sans', sans-serif",
+                    fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                     fontSize: "16px",
                     fontWeight: 400,
                     color: "#F5F0E8",
@@ -492,7 +492,7 @@ export function Qualification() {
                 <p
                   className="mb-4"
                   style={{
-                    fontFamily: "'DM Sans', sans-serif",
+                    fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                     fontSize: "16px",
                     fontWeight: 400,
                     color: "#F5F0E8",
@@ -548,7 +548,7 @@ export function Qualification() {
             <div className="mb-4">
               <span
                 className="text-xs tracking-[0.18em] uppercase"
-                style={{ color: "#C9A84C", fontFamily: "'DM Sans', sans-serif" }}
+                style={{ color: "#C9A84C", fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif" }}
               >
                 Dúvidas frequentes
               </span>

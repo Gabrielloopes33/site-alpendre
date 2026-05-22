@@ -32,7 +32,7 @@ export function Footer() {
         <AnimatedSection>
           <div
             style={{
-              fontFamily: "'Cormorant Garamond', Georgia, serif",
+              fontFamily: "var(--font-cormorant), 'Cormorant Garamond', Georgia, serif",
               fontSize: "clamp(26px, 4vw, 40px)",
               fontWeight: 600,
               color: "#C9A84C",
@@ -48,7 +48,7 @@ export function Footer() {
         <AnimatedSection delay={0.05}>
           <p
             style={{
-              fontFamily: "'DM Sans', sans-serif",
+              fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
               fontSize: "13px",
               fontWeight: 300,
               color: "#5A5448",
@@ -80,7 +80,7 @@ export function Footer() {
               data-testid="link-footer-whatsapp"
               className="flex items-center gap-2"
               style={{
-                fontFamily: "'DM Sans', sans-serif",
+                fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                 fontSize: "13px",
                 fontWeight: 400,
                 color: "#A09880",
@@ -105,7 +105,7 @@ export function Footer() {
               rel="noopener noreferrer"
               data-testid="link-footer-instagram"
               style={{
-                fontFamily: "'DM Sans', sans-serif",
+                fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                 fontSize: "13px",
                 fontWeight: 400,
                 color: "#A09880",
@@ -124,7 +124,7 @@ export function Footer() {
               rel="noopener noreferrer"
               data-testid="link-footer-linkedin"
               style={{
-                fontFamily: "'DM Sans', sans-serif",
+                fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                 fontSize: "13px",
                 fontWeight: 400,
                 color: "#A09880",
@@ -142,7 +142,7 @@ export function Footer() {
         <AnimatedSection delay={0.2}>
           <p
             style={{
-              fontFamily: "'DM Sans', sans-serif",
+              fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
               fontSize: "11px",
               fontWeight: 300,
               color: "#3A3430",

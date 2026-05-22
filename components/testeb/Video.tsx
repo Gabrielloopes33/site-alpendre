@@ -31,14 +31,14 @@ export function Video() {
         <AnimatedSection>
           <span
             className="text-xs tracking-[0.18em] uppercase block mb-3"
-            style={{ color: "#C9A84C", fontFamily: "'DM Sans', sans-serif" }}
+            style={{ color: "#C9A84C", fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif" }}
           >
             Assista em 3 minutos
           </span>
           <h2
             className="leading-tight mb-10"
             style={{
-              fontFamily: "'Cormorant Garamond', Georgia, serif",
+              fontFamily: "var(--font-cormorant), 'Cormorant Garamond', Georgia, serif",
               fontSize: "clamp(28px, 4vw, 46px)",
               fontWeight: 400,
               color: "#F5F0E8",
@@ -108,7 +108,7 @@ export function Video() {
               <div className="text-center">
                 <p
                   style={{
-                    fontFamily: "'DM Sans', sans-serif",
+                    fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                     fontSize: "15px",
                     fontWeight: 500,
                     color: "#F5F0E8",
@@ -119,7 +119,7 @@ export function Video() {
                 </p>
                 <p
                   style={{
-                    fontFamily: "'DM Sans', sans-serif",
+                    fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                     fontSize: "13px",
                     fontWeight: 300,
                     color: "#A09880",
@@ -136,7 +136,7 @@ export function Video() {
           <p
             className="mt-6"
             style={{
-              fontFamily: "'DM Sans', sans-serif",
+              fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
               fontSize: "13px",
               fontWeight: 300,
               color: "#5A5448",

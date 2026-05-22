@@ -45,7 +45,7 @@ export function Problem() {
           <div className="mb-4">
             <span
               className="text-xs tracking-[0.18em] uppercase"
-              style={{ color: "#C9A84C", fontFamily: "'DM Sans', sans-serif" }}
+              style={{ color: "#C9A84C", fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif" }}
             >
               O diagnóstico
             </span>
@@ -53,7 +53,7 @@ export function Problem() {
           <h2
             className="leading-tight mb-16"
             style={{
-              fontFamily: "'Cormorant Garamond', Georgia, serif",
+              fontFamily: "var(--font-cormorant), 'Cormorant Garamond', Georgia, serif",
               fontSize: "clamp(32px, 4.5vw, 52px)",
               fontWeight: 400,
               color: "#F5F0E8",
@@ -90,7 +90,7 @@ export function Problem() {
                 <h3
                   className="mb-3"
                   style={{
-                    fontFamily: "'DM Sans', sans-serif",
+                    fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                     fontSize: "18px",
                     fontWeight: 500,
                     color: "#F5F0E8",
@@ -100,7 +100,7 @@ export function Problem() {
                 </h3>
                 <p
                   style={{
-                    fontFamily: "'DM Sans', sans-serif",
+                    fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                     fontSize: "15px",
                     fontWeight: 300,
                     color: "#A09880",
@@ -124,7 +124,7 @@ export function Problem() {
           >
             <p
               style={{
-                fontFamily: "'Cormorant Garamond', Georgia, serif",
+                fontFamily: "var(--font-cormorant), 'Cormorant Garamond', Georgia, serif",
                 fontSize: "clamp(20px, 2.5vw, 26px)",
                 fontWeight: 400,
                 fontStyle: "italic",

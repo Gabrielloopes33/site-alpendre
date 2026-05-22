@@ -18,7 +18,7 @@ function AccordionItem({ question, answer, isOpen, onClick, testId }: AccordionI
         onClick={onClick}
         className="w-full text-left py-4 flex items-center justify-between"
         style={{
-          fontFamily: "'DM Sans', sans-serif",
+          fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
           fontSize: "15px",
           fontWeight: 400,
           color: "#F5F0E8",
@@ -45,7 +45,7 @@ function AccordionItem({ question, answer, isOpen, onClick, testId }: AccordionI
             <p
               className="pb-4"
               style={{
-                fontFamily: "'DM Sans', sans-serif",
+                fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                 fontSize: "14px",
                 fontWeight: 300,
                 color: "#A09880",

@@ -53,7 +53,7 @@ export function Hero() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2, duration: 0.6 }}
                 className="text-xs tracking-[0.2em] uppercase font-medium"
-                style={{ color: "#C9A84C", fontFamily: "'DM Sans', sans-serif" }}
+                style={{ color: "#C9A84C", fontFamily: "var(--font-dm-sans), var(--font-dm-sans), 'DM Sans', sans-serif" }}
                 data-testid="text-eyebrow"
               >
                 Parcerias Público-Privadas · Concessões · Licitações
@@ -82,7 +82,7 @@ export function Hero() {
               transition={{ delay: 0.3, duration: 0.8 }}
               className="leading-[1.1] tracking-tight"
               style={{
-                fontFamily: "'Cormorant Garamond', Georgia, serif",
+                fontFamily: "var(--font-cormorant), 'Cormorant Garamond', Georgia, serif",
                 fontSize: "clamp(42px, 6vw, 80px)",
                 fontWeight: 600,
                 color: "#F5F0E8",
@@ -99,7 +99,7 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.7 }}
               className="text-base md:text-lg leading-relaxed"
-              style={{ color: "#A09880", fontFamily: "'DM Sans', sans-serif", fontWeight: 300 }}
+              style={{ color: "#A09880", fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif", fontWeight: 300 }}
               data-testid="text-hero-subheadline"
             >
               Empresários que faturam entre 50 e 100 mil por mês estão descobrindo um mercado com receita protegida por contrato. Alpendre abre esse caminho com método.
@@ -111,7 +111,7 @@ export function Hero() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.65, duration: 0.6 }}
               className="text-xs tracking-[0.12em]"
-              style={{ color: "#5A5448", fontFamily: "'JetBrains Mono', monospace" }}
+              style={{ color: "#5A5448", fontFamily: "var(--font-jetbrains), 'JetBrains Mono', monospace" }}
               data-testid="text-hero-badge"
             >
               CP3P · World Bank · APMG International · +R$600MM em contratos estruturados
@@ -131,7 +131,7 @@ export function Hero() {
                 style={{
                   background: "#C9A84C",
                   color: "#0A0A0A",
-                  fontFamily: "'DM Sans', sans-serif",
+                  fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                   fontWeight: 500,
                   fontSize: "14px",
                   padding: "16px 40px",

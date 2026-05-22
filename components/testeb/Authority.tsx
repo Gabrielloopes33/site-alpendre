@@ -37,7 +37,7 @@ function CountUp({ target, suffix = "", duration = 2000 }: { target: number; suf
   }, [inView, target, duration]);
 
   return (
-    <span ref={ref} style={{ fontFamily: "'JetBrains Mono', monospace", color: "#C9A84C" }}>
+    <span ref={ref} style={{ fontFamily: "var(--font-jetbrains), 'JetBrains Mono', monospace", color: "#C9A84C" }}>
       {count}{suffix}
     </span>
   );
@@ -68,7 +68,7 @@ export function Authority() {
           <div className="mb-4">
             <span
               className="text-xs tracking-[0.18em] uppercase"
-              style={{ color: "#C9A84C", fontFamily: "'DM Sans', sans-serif" }}
+              style={{ color: "#C9A84C", fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif" }}
             >
               Quem vai abrir essa porta para você
             </span>
@@ -76,7 +76,7 @@ export function Authority() {
           <h2
             className="leading-tight mb-16"
             style={{
-              fontFamily: "'Cormorant Garamond', Georgia, serif",
+              fontFamily: "var(--font-cormorant), 'Cormorant Garamond', Georgia, serif",
               fontSize: "clamp(32px, 4.5vw, 52px)",
               fontWeight: 400,
               color: "#F5F0E8",
@@ -118,7 +118,7 @@ export function Authority() {
             <div className="flex flex-col gap-7">
               <p
                 style={{
-                  fontFamily: "'DM Sans', sans-serif",
+                  fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                   fontSize: "16px",
                   fontWeight: 300,
                   color: "#A09880",
@@ -129,7 +129,7 @@ export function Authority() {
               </p>
               <p
                 style={{
-                  fontFamily: "'DM Sans', sans-serif",
+                  fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                   fontSize: "15px",
                   fontWeight: 300,
                   color: "#5A5448",
@@ -149,7 +149,7 @@ export function Authority() {
                   <div key={i} className="text-center" data-testid={`stat-authority-${i}`}>
                     <div
                       style={{
-                        fontFamily: "'JetBrains Mono', monospace",
+                        fontFamily: "var(--font-jetbrains), 'JetBrains Mono', monospace",
                         fontSize: "clamp(18px, 2.5vw, 28px)",
                         fontWeight: 500,
                         color: "#C9A84C",
@@ -161,7 +161,7 @@ export function Authority() {
                     </div>
                     <div
                       style={{
-                        fontFamily: "'DM Sans', sans-serif",
+                        fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                         fontSize: "11px",
                         color: "#5A5448",
                         marginTop: "4px",
@@ -182,7 +182,7 @@ export function Authority() {
                     key={i}
                     data-testid={`badge-credential-${i}`}
                     style={{
-                      fontFamily: "'DM Sans', sans-serif",
+                      fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                       fontSize: "11px",
                       fontWeight: 400,
                       color: "#A09880",
@@ -214,7 +214,7 @@ export function Authority() {
               >
                 <div
                   style={{
-                    fontFamily: "'Cormorant Garamond', Georgia, serif",
+                    fontFamily: "var(--font-cormorant), 'Cormorant Garamond', Georgia, serif",
                     fontSize: "22px",
                     color: "#C9A84C",
                     lineHeight: 1,
@@ -225,7 +225,7 @@ export function Authority() {
                 </div>
                 <p
                   style={{
-                    fontFamily: "'DM Sans', sans-serif",
+                    fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                     fontSize: "15px",
                     fontWeight: 300,
                     color: "#F5F0E8",
@@ -237,7 +237,7 @@ export function Authority() {
                 </p>
                 <p
                   style={{
-                    fontFamily: "'DM Sans', sans-serif",
+                    fontFamily: "var(--font-dm-sans), 'DM Sans', sans-serif",
                     fontSize: "12px",
                     fontWeight: 400,
                     color: "#5A5448",
